@@ -2,4 +2,15 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: url("../images/cover-image-light.png");
+  background-position: center;
+  background-attachment: fixed;
 }
+
+/*.header {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+
