@@ -2,15 +2,30 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: url("../images/cover-image-light.png");
+  background-image: url("../images/cover-image-dark.png");
   background-position: center;
   background-attachment: fixed;
+  width: 375px;
+  color: #f1b2ce; /* перенести в переменные*/
 }
 
-/*.header {
+.header {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(3, 1fr);
-} */
+} 
+
+.decoration_inscription_no-focus {
+  font-size: 116px;
+  text-decoration: bold;
+  color: #DB00FF;
+  line-height: 95.7px;
+  text-shadow: 4px 4px 0 #FF0070;
+  font-family: "IBM Plex Mono", sans-serif;
+  font-weight: 700;
+}
+
+.header__theme-menu {
+  justify-self: end;
+}
 
 
