@@ -7,6 +7,7 @@
   background-attachment: fixed;
   width: 375px;
   color: #f1b2ce; /* перенести в переменные*/
+  font-family: "IBM Plex Mono", sans-serif;
 }
 
 .header {
@@ -20,12 +21,18 @@
   color: #DB00FF;
   line-height: 95.7px;
   text-shadow: 4px 4px 0 #FF0070;
-  font-family: "IBM Plex Mono", sans-serif;
   font-weight: 700;
 }
 
 .header__theme-menu {
   justify-self: end;
+}
+
+.title {
+  background-color: #FF0070;
+  font-size: 18px;
+  text-decoration: bold;
+  color: #000028;
 }
 
 
