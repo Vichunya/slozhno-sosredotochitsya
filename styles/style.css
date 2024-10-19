@@ -119,3 +119,12 @@ li {
 .section_title, .subheading_in-pictures {  /*Что снижает концентрацию внимания? Как концентрироваться лучше,*/
   margin-top: 50px;                        /*А можно в картинках?*/
 }
+
+.subheading_multitasking {
+  marging-top: 20px;
+}
+
+.subheading_five-advives {
+  marging-top: 20px;
+  margin-bottom: 20px;
+}
