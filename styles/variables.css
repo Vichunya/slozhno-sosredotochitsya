@@ -7,8 +7,14 @@
   --subheading-color: #000028;
   --section-title-color: #FF0070; /*надо ли дублировать цвет (один для текста, второй - для фона)?*/
   --text-background-color: #FF0070; 
-  }\
+  } 
 
-:root { 
+:root {        /*отступы*/
+ --margin-right-left: 10px;
+ --margin-top:  /*разные значения, надо ли выносить в переменные*/
+ --margin-bottom: /*разные значения, надо ли выносить в переменные*/
+}
 
+:root {        /*размеры текста*/    
+ --font-size-text: 18px; 
 }
