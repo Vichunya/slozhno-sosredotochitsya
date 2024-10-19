@@ -19,6 +19,11 @@
   justify-self: end;
   margin-right: 10px;
   color:#FF0070;
+  position: absolute;
+}
+
+.decoration_element::after {
+  content:"";  /*это для точки после REC, но не знаю, что туда писать*/
 }
 
 li {
@@ -41,6 +46,13 @@ li {
   color: #FF0070; /*цвет поменялся на белом фоне*/
   background-color: /*какое нужно значение, чтобы сливался с темной темой? 
 Если делаю темный цвет, то он отличается от макета*/
+}
+
+.header__theme-menu-button:not(:last-child) { /*кажется код не применился для нижних отступов между кнопками*/
+  margin-bottom: 10px;                        /*попробовала применить и к классу header__theme-menu-button */
+}                                             /* и к классу header__theme-menu-item*/
+.header__theme-menu-item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .decoration_inscription_no-focus {
