@@ -128,3 +128,24 @@ li {
   marging-top: 20px;
   margin-bottom: 20px;
 }
+
+.word_link {         /*слова-ссылки, видимо, есть тень, но посмотреть не могу, нажимаю - открывается ссылка*/
+  color: #F1B2CE;
+  }
+
+a {
+  color: #F1B2CE;
+}
+
+.word_link:hover{  /*пробовала a.hover - тоже не работает*/
+  cursor: pointer;
+  background-color: ;
+}
+
+.images {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  width: 355px;
+  object-fit: contain; /*как выровнять картинки по правому краю ?*/
+  justify-content: 
+}
