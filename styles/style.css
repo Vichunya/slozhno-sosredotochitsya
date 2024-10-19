@@ -80,10 +80,16 @@ li {
   margin-left: 10px; /* отступы по 10px, но слева отступ больше */
   margin-right: 10px; /* если paading, тогда справа отступа почти нет*/
   margin-top: 55px;
+  /*font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);*/ /*дано в инструкции, почему именно такие значения?*/
 }
 
 .section_title_hard-concentrate {
   margin-top: 40px;
 }
+
+.main {
+  display: flex;
+}
+
 
 
