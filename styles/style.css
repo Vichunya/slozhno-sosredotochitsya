@@ -15,6 +15,10 @@
   grid-template-rows: repeat(3, 1fr);
 } 
 
+li {
+  list-style-type: none;
+}
+
 .decoration_inscription_no-focus {
   font-size: 116px;
   text-decoration: bold;
@@ -22,6 +26,7 @@
   line-height: 95.7px;
   text-shadow: 4px 4px 0 #FF0070;
   font-weight: 700;
+  margin-top: 65px;
 }
 
 .header__theme-menu {
@@ -38,6 +43,11 @@
   /*height: 117px; добавляю высоту - урезает часть текста*/
   margin-left: 10px; /* отступы по 10px, но слева отступ больше */
   margin-right: 10px; /* если paading, тогда справа отступа почти нет*/
+  margin-top: 55px;
+}
+
+.section_title_hard-concentrate {
+  margin-top: 40px;
 }
 
 
