@@ -89,6 +89,9 @@ li {
 
 .main {
   display: flex;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px; /*кажется, cправа не применился*/
 }
 
 .section_title {
@@ -113,3 +116,6 @@ li {
   line-height: 23.4px;
 } 
 
+.section_title, .subheading_in-pictures {  /*Что снижает концентрацию внимания? Как концентрироваться лучше,*/
+  margin-top: 50px;                        /*А можно в картинках?*/
+}
