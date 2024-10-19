@@ -91,5 +91,25 @@ li {
   display: flex;
 }
 
+.section_title {
+  color: #FF0070;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-weight: bold;
+}
 
+.subheading {
+  color: #000028;
+  background-color: #FF0070;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23.4px;
+}
+
+.advice_item {
+  color: #000028;
+  background-color: #FF0070;
+  font-size: 18px;
+  line-height: 23.4px;
+} 
 
