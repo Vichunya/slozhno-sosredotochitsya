@@ -12,7 +12,6 @@
 
 .header {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
 } 
 
 .decoration_element {
@@ -68,13 +67,12 @@
   font-size: 18px;
   color: #000028;
   font-weight: 700;
-  line-height: 23.4px; /*после переноса строк, большое расстояние между строк */ 
+  line-height: 23.4px;
   width: 355px;
-  /*height: 117px; добавляю высоту - урезает часть текста*/
-  margin-left: 10px; /* отступы по 10px, но слева отступ больше */
-  margin-right: 10px; /* если paading, тогда справа отступа почти нет*/
+  margin-left: 10px; 
+  margin-right: 10px; 
   margin-top: 55px;
-  /*font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);*/ /*дано в инструкции, почему именно такие значения?*/
+  /*font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);*/
 }
 
 .section_title_hard-concentrate {
@@ -85,7 +83,7 @@
   display: flex;
   margin-top: 40px;
   margin-bottom: 10px;
-  margin-right: 10px; /*кажется, cправа не применился*/
+  margin-right: 10px;
 }
 
 .section_title {
@@ -123,8 +121,9 @@
   margin-bottom: 20px;
 }
 
-.word_link {         /*слова-ссылки, видимо, есть тень, но посмотреть не могу, нажимаю - открывается ссылка*/
+.word_link {        
   color: #F1B2CE;
+  text-shadow: 1.5px 1px 0 #FF0070;
   }
 
 a {
