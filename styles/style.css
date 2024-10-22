@@ -23,13 +23,21 @@
 }
 
 .decoration_element::after {
-  content:"";  /*это для точки после REC, но не знаю, что туда писать*/
-}
+  content:""; /*это для точки после REC, но не знаю, что туда писать*/
+  display: inline-block;
+  inline-size: 9px; 
+  block-size: 9px;
+  background-color:#FF0070;
+  border-radius: 50%;  
+  box-shadow: 0px 0px 4px 2px #FF0070;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  }
 
 .header__theme-menu-list{ 
   list-style-type: none;
   margin-top: 39px; /*по макету 39 между контейнерами*/
-  margin-right: 10px; /* last or first child отступ*/
+  margin-right: 10px; 
 }
 
 .header__theme-menu-button{
@@ -37,9 +45,6 @@
   background-color: transparent;
 }
 
-.header__theme-menu-button:not(:last-child) { /*кажется код не применился для нижних отступов между кнопками*/
-  margin-bottom: 10px;                        /*попробовала применить и к классу header__theme-menu-button */
-}                                             /* и к классу header__theme-menu-item*/
 .header__theme-menu-item:not(:last-child) {
   margin-bottom: 10px;
 }
