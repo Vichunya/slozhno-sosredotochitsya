@@ -26,10 +26,10 @@
   content:"";  /*это для точки после REC, но не знаю, что туда писать*/
 }
 
-li {
+.header__theme-menu-list{ 
   list-style-type: none;
-  margin-top: 39px; /* вроде по макету 39*/
-  margin-right: 10px;
+  margin-top: 39px; /*по макету 39 между контейнерами*/
+  margin-right: 10px; /* last or first child отступ*/
 }
 /* Цвет (День Авто Неон) не применяется ни к списку, ни к следующим классам почему-то?
 .header__theme-menu-item {
@@ -44,8 +44,7 @@ li {
 
 .header__theme-menu-button{
   color: #FF0070; /*цвет поменялся на белом фоне*/
-  background-color: /*какое нужно значение, чтобы сливался с темной темой? 
-Если делаю темный цвет, то он отличается от макета*/
+  background-color: transparent;
 }
 
 .header__theme-menu-button:not(:last-child) { /*кажется код не применился для нижних отступов между кнопками*/
@@ -142,10 +141,10 @@ a {
   background-color: ;
 }
 
-.images {
+.image_container {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  width: 355px;
-  object-fit: contain; /*как выровнять картинки по правому краю ?*/
-  justify-content: 
+}
+
+.image {
+  inline-size: 100%;
 }
