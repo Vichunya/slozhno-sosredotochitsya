@@ -31,19 +31,9 @@
   margin-top: 39px; /*по макету 39 между контейнерами*/
   margin-right: 10px; /* last or first child отступ*/
 }
-/* Цвет (День Авто Неон) не применяется ни к списку, ни к следующим классам почему-то?
-.header__theme-menu-item {
-  color: #FF0070;
-}
-.header__theme-menu-list {
-  color: #FF0070;
-}
-.button {
-  color: #FF0070;
-} */
 
 .header__theme-menu-button{
-  color: #FF0070; /*цвет поменялся на белом фоне*/
+  color: #FF0070; 
   background-color: transparent;
 }
 
