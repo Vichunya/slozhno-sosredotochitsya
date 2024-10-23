@@ -42,6 +42,8 @@
 .header__theme-menu-button {
   color: #ff0070;
   background-color: transparent;
+  border: none;
+  text-transform: lowercase;
 }
 
 .header__theme-menu-item:not(:last-child) {
