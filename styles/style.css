@@ -48,15 +48,16 @@
 }
 
 .header__theme-menu-button:hover {   /*hover*/
-  border 
+  outline: 1px solid var(--menu-button-border-color); /*не работает*/
 }
 
 .header__theme-menu-button:focus {  /*focus*/
-  text-decoration: underline;  /*тонкое подчеркивание надо и на весь контейнер ?*/
+  text-decoration: underline;  /*появляется обводка, а не подчеркивание*/
 }
 
 .theme-menu-button_type_dark {     /*Неон*/
-  border: solid var(--menu-button-border-color);
+  border: 1px solid var(--menu-button-border-color); /*не работает*/
+  outline: 1px solid var(--menu-button-border-color); /*тоже не работает*/
   }
 
 .header__theme-menu-item:not(:last-child) {
@@ -152,7 +153,8 @@
 }
 
 .word_link:focus {  
-  border: solid var(--menu-word-link-border-color);
+  outline: 1px solid var(--menu-word-link-border-color);
+  text-decoration: none; 
 }
 
 .word_link:hover {
