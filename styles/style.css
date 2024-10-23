@@ -121,6 +121,7 @@
   background-color: var(--advice_item-background-color);
   font-size: 18px;
   line-height: 23.4px;
+  margin-top: 20px;
 }
 
 .section_title,
@@ -189,4 +190,21 @@
   margin-bottom: 285px;
   margin-left: 14px;
   margin-right: 13px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__theme-menu-list {
+    list-style-type: none; /*надо ли дублировать это св-во ?*/
+    display: flex;
+    flex-direction: column;
+    justify-content: end /*??*/
+    margin-top: 146px; 
+    margin-right: 20px;
+  }
+}       
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .decoration_inscription_no-focus {
+    display: inline;
+  }
 }
