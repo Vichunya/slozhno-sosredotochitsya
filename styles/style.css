@@ -47,6 +47,18 @@
   text-transform: lowercase;
 }
 
+.header__theme-menu-button:hover {   /*hover*/
+  border 
+}
+
+.header__theme-menu-button:focus {  /*focus*/
+  text-decoration: underline;  /*тонкое подчеркивание надо и на весь контейнер ?*/
+}
+
+.theme-menu-button_type_dark {     /*Неон*/
+  border: solid var(--menu-button-border-color);
+  }
+
 .header__theme-menu-item:not(:last-child) {
   margin-bottom: 10px;
 }
@@ -132,6 +144,14 @@
   color: #f1b2ce;
   text-shadow: 1.5px 1px 0 var(--text-shadow-color);
   text-decoration: none;
+}
+
+.word_link:hover {    /*не так работает, как и ниже с фокусом*/
+  text-decoration: underline;
+}
+
+.word_link:focus {  
+  border: solid var(--menu-word-link-border-color);
 }
 
 .word_link:hover {
