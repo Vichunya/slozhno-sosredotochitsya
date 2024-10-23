@@ -239,6 +239,12 @@
     margin-right: 20px;
     margin-left: 20px;
   }
+
+  .section_better_concentrate {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
 }
 
 @media (min-width: 768px) {
