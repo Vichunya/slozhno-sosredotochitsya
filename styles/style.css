@@ -47,17 +47,20 @@
   text-transform: lowercase;
 }
 
+.header__theme-menu-button_active {
+ outline: 1px solid var(--menu-button-border-color);
+}
+
 .header__theme-menu-button:hover {   /*hover*/
   outline: 1px solid var(--menu-button-border-hover-color); 
 }
 
 .header__theme-menu-button:focus {  /*focus*/
-  text-decoration: underline;  /*появляется обводка, а не подчеркивание*/
+  outline: none;
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: 1px solid var(--menu-button-border-color);
-  outline-offset: 2px;
+  border-block-end: 1px solid var(--menu-button-border-color);
 } 
 
 .theme-menu-button_type_dark {     /*Неон*/
@@ -138,12 +141,12 @@
 
 .subheading_multitasking {
   /*Многозадачность*/
-  marging-top: 20px;
+  margin-top: 20px;
 }
 
 .subheading_five-advives {
   /*Пять советов*/
-  marging-top: 20px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -204,7 +207,7 @@
     list-style-type: none; /*надо ли дублировать это св-во ?*/
     display: flex;
     flex-direction: column;
-    justify-content: end /*??*/
+    justify-content: end; /*??*/
     margin-top: 146px; 
     margin-right: 20px;
   }
