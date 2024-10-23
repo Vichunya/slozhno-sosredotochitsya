@@ -6,7 +6,7 @@
   background-position: center;
   background-attachment: fixed;
   width: 375px;
-  color: #f1b2ce; /* перенести в переменные*/
+  color: var(--main-color); 
   font-family: "IBM Plex Mono", sans-serif;
 }
 
@@ -17,18 +17,19 @@
 .decoration_element {
   justify-self: end;
   margin-right: 10px;
-  color: #ff0070;
+  color: var(--decoration_element-color);
   position: absolute;
+  font-weight: lighter; /*начертание ?*/
 }
 
 .decoration_element::after {
-  content: ""; /*это для точки после REC, но не знаю, что туда писать*/
+  content: ""; 
   display: inline-block;
   inline-size: 9px;
   block-size: 9px;
-  background-color: #ff0070;
+  background-color: var(--decoration_element-color);
   border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px #ff0070;
+  box-shadow: 0px 0px 4px 2px var(--box-shadow-color);
   margin-left: 10px;
   margin-bottom: 2px;
 }
@@ -40,7 +41,7 @@
 }
 
 .header__theme-menu-button {
-  color: #ff0070;
+  color: var(--menu-button-color);
   background-color: transparent;
   border: none;
   text-transform: lowercase;
@@ -53,9 +54,9 @@
 .decoration_inscription_no-focus {
   font-size: 116px;
   text-decoration: bold;
-  color: #db00ff;
+  color: var(--decoration_inscription_no-focus-color);
   line-height: 95.7px;
-  text-shadow: 4px 4px 0 #ff0070;
+  text-shadow: 4px 4px 0 var(--text-shadow-color);
   font-weight: 700;
   margin-top: 65px;
 }
@@ -65,9 +66,9 @@
 }
 
 .title {
-  background-color: #ff0070;
+  background-color: var(--title-background-color);
   font-size: 18px;
-  color: #000028;
+  color: var(--subheading-color);
   font-weight: 700;
   line-height: 23.4px;
   width: 355px;
@@ -89,23 +90,23 @@
 }
 
 .section_title {
-  color: #ff0070;
+  color: var(--section-title-color);
   font-size: 18px;
   line-height: 23.4px;
   font-weight: bold;
 }
 
 .subheading {
-  color: #000028;
-  background-color: #ff0070;
+  color: var(--subheading-color);
+  background-color: var(--subheading-background-color);
   font-size: 18px;
   font-weight: bold;
   line-height: 23.4px;
 }
 
 .advice_item {
-  color: #000028;
-  background-color: #ff0070;
+  color: var(--advice_item-color);
+  background-color: var(--advice_item-background-color);
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -129,7 +130,7 @@
 
 .word_link {
   color: #f1b2ce;
-  text-shadow: 1.5px 1px 0 #ff0070;
+  text-shadow: 1.5px 1px 0 var(--text-shadow-color);
   text-decoration: none;
 }
 
@@ -152,14 +153,15 @@
   font-weight: 400;
   line-height: 23.4px;
   font-family: monospace;
+  margin-top: 10px;
 }
 
 .footer {
   font-size: 116px;
   text-decoration: bold;
-  color: #db00ff;
+  color: var( --footer-color);
   line-height: 95.7px;
-  text-shadow: 2px 2px 0 #ff0070;
+  text-shadow: 2px 2px 0 var(--text-shadow-color);
   font-weight: 700;
   margin-top: 65px;
   text-align: center;
