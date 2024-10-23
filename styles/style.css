@@ -19,7 +19,7 @@
   margin-right: 10px;
   color: var(--decoration_element-color);
   position: absolute;
-  font-weight: lighter; /*начертание ?*/
+  margin-top: 10px;
 }
 
 .decoration_element::after {
@@ -48,12 +48,17 @@
 }
 
 .header__theme-menu-button:hover {   /*hover*/
-  outline: 1px solid var(--menu-button-border-color); /*не работает*/
+  outline: 1px solid var(--menu-button-border-hover-color); 
 }
 
 .header__theme-menu-button:focus {  /*focus*/
   text-decoration: underline;  /*появляется обводка, а не подчеркивание*/
 }
+
+.header__theme-menu-button:focus-visible {
+  outline: 1px solid var(--menu-button-border-color);
+  outline-offset: 2px;
+} 
 
 .theme-menu-button_type_dark {     /*Неон*/
   border: 1px solid var(--menu-button-border-color); /*не работает*/
