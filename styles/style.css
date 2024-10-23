@@ -206,7 +206,7 @@
     list-style-type: none; /*надо ли дублировать это св-во ?*/
     display: flex;
     flex-direction: column;
-    justify-content: end; /*??*/
+    justify-content: end; 
     margin-top: 146px; 
     margin-right: 20px;
   }
@@ -216,4 +216,41 @@
   .decoration_inscription_no-focus {
     display: inline;
   }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .image_container {
+    display: grid;
+    grid-template-areas: 
+    "image-sunset image-sunset image-ice-cream"
+    "image-cassette image-book image-ice-cream"
+    "image-cassette image-street image-street";
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .image-sunset {
+    grid-area: image-sunset;
+  }
+
+  .image-ice-cream {
+    grid-area: image-ice-cream;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-cassette {
+    grid-area: image-cassette;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .image-book {
+    grid-area: image-book;
+  }
+
+  .image-street {
+  grid-area: image-street;
+  }
+  
 }
