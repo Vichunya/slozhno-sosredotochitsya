@@ -9,8 +9,6 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
-:root {               
   --main-color: #f1b2ce;
   --decoration_element-color: #ff0070;
   --box-shadow-color: #ff0070;
@@ -26,4 +24,4 @@
   --subheading-background-color: #FF0070; 
   --advice_item-background-color: #ff0070;
   --footer-color:#db00ff;
-  } 
+}
