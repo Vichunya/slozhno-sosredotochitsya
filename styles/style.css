@@ -329,8 +329,31 @@
  display: flex;
  flex-direction: row;
  justify-content: center;
- justify-items: center;   /*не работает*/
+ justify-items: center;   /*не работает почему-то*/
  align-items: 
+}
+
+.decoration_inscription_no-focus {
+  margin-top: 273px;
+  /* width: 759px; */ 
+  word-spacing:  /* какое расстояние между словами ? */
+}
+
+.title {       /*не умещается в три строки. Если добавляю ширину или высоту, то часть текста исчезает*/
+  margin-left: 513px;
+  margin-right: 20px;
+  font-size: 18px;
+  line-height: 23.4px;
+  font-family: monospace;
+}
+
+/*.section_multitasking_food_gadget{         /*Многозадачность еда гаджеты*/
+display: flex;   Не так как нужно выстроил                
+*/
+
+.subheading {          /*не работает*/
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 }
