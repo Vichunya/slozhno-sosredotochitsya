@@ -322,3 +322,15 @@
   }
   
 }
+
+@media (min-width: 1024px) {
+  
+.header__theme-menu-list {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-items: center;   /*не работает*/
+ align-items: 
+}
+
+}
