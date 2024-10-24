@@ -220,7 +220,7 @@
   }
   
   .title {
-  margin-left: 384px;
+  margin-left: 384px;   
   margin-right: 20px; 
   }
 }
@@ -230,6 +230,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
+    margin-top: 60px; 
   }
 
   .section_title_hard-concentrate {
@@ -238,6 +239,8 @@
 
   .subheading_multitasking-especially-hard-concentrate {    
     margin-top: 0px;
+    font-size: 18px;
+    font-family: monospace;    /* строки все равно не так переносятся*/
   }
 
   .main {
