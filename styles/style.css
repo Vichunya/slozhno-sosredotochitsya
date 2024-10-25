@@ -217,11 +217,13 @@
     display: inline;
     margin-top: 173px;
     margin-right: 191.16px;  
+    margin-bottom: 162px;
   }
   
   .title {
   margin-left: 384px;   
   margin-right: 20px; 
+  margin-bottom: 183px;
   }
 }
 
@@ -253,9 +255,8 @@
     font-family: monospace;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /*из рекомендций, но строки все равно не переносятся как по макету */
   }
-
-  .subheading {
-    margin-top: 20px;
+  .subheading_dopamine {
+    margin-top: 20px;   /*для выравнивания с заголовком слева, подтянул вверх*/
   }
 
   .main {
