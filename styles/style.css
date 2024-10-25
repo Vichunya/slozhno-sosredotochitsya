@@ -259,6 +259,18 @@
     margin-top: 20px;   /*для выравнивания с заголовком слева, подтянул вверх*/
   }
 
+  .section_title {
+    margin-top: 0px;
+  }
+
+  .subheading_five-advives {
+    margin-top: 0px;
+  }
+
+  .subheading_food, .subheading_gadget {
+    margin-top: 20px;
+  }
+
   .main {
     margin-top: 40px;
     margin-bottom: 10px;
