@@ -202,7 +202,7 @@
   margin-right: 13px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .header__theme-menu-list {
     list-style-type: none; /*надо ли дублировать это св-во ?*/
     display: flex;
@@ -213,7 +213,7 @@
   }
 }       
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .decoration_inscription_no-focus {
     display: inline;
     margin-top: 173px;
@@ -228,7 +228,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .section_hard-concentrate {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -340,14 +340,18 @@
  display: flex;
  flex-direction: row;
  justify-content: center;
- justify-items: center;   /*не работает почему-то*/
- align-items: 
+ margin-top: 20px;
+}
+
+.header__theme-menu {
+ display: flex;
+ justify-self: center; 
+ 
 }
 
 .decoration_inscription_no-focus {
   margin-top: 273px;
-  /* width: 759px; */ 
-  word-spacing:  /* какое расстояние между словами ? */
+  font-size: 
 }
 
 .title {       /*не умещается в три строки. Если добавляю ширину или высоту, то часть текста исчезает*/
@@ -358,9 +362,9 @@
   font-family: monospace;
 }
 
-.subheading {          /*не работает*/
+.section_what_decrease_concentration {          
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+
 }
 }
 
