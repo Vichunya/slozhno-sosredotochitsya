@@ -355,5 +355,10 @@ display: flex;   Не так как нужно выстроил
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
+}
 
+@media (prefers-color-scheme: light) {
+  .decoration_element {       
+    visibility: hidden;
+  } 
 }
