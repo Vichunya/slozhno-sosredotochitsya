@@ -6,7 +6,7 @@
   background-position: center;
   background-attachment: fixed;
   color: var(--main-color); 
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: "IBM", sans-serif;
 }
 
 .header {
@@ -182,7 +182,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
-  font-family: monospace;
+  font-family: "IBM", monospace;
   margin-top: 10px;
 }
 
