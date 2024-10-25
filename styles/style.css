@@ -122,6 +122,7 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 23.4px;
+  margin-top: 20px;
 }
 
 .advice_item {
@@ -243,7 +244,7 @@
   .subheading_multitasking-especially-hard-concentrate {    
     margin-top: 0px;
     font-size: 18px;
-    font-family: monospace;    /* строки все равно не так переносятся*/
+    font-family: monospace;    
   }
 
   .section_title_what-decrease {
@@ -253,8 +254,8 @@
 
   .section_what_decrease_concentration {
     font-family: monospace;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); /*из рекомендций, но строки все равно не переносятся как по макету */
   }
+
   .subheading_dopamine {
     margin-top: 20px;   /*для выравнивания с заголовком слева, подтянул вверх*/
   }
@@ -285,17 +286,14 @@
     margin-top: 80px;
   }
 
-  .section_title_how_better_concentrate {
-    align-items: start; /*не работает выравнивание ровно с текстом сверху*/
-  }
-
-  .advice_item  {}   /*невыровнен текст*/
-
   .subheading_in-pictures {
     margin-top: 80px;
   }
 
-  .footer {} 
+  .footer {
+   margin-top: 463px;
+   margin-bottom: 462px;
+  } 
 
 }
 
