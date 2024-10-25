@@ -340,7 +340,7 @@
 }
 
 .title {       /*не умещается в три строки. Если добавляю ширину или высоту, то часть текста исчезает*/
-  margin-left: 513px;
+  margin-left: 513px; /* кажется, после добавления light перестал работать */
   margin-right: 20px;
   font-size: 18px;
   line-height: 23.4px;
@@ -357,7 +357,7 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 }
 
-/* Для светлой темы */
+/* Для светлой темы 
 
 @media (prefers-color-scheme: light) {
 
@@ -546,3 +546,6 @@ grid-template-columns: 1fr 1fr 1fr;
   margin-right: 13px;
 }
 }
+*/
+
+
