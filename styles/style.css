@@ -362,3 +362,10 @@ grid-template-columns: 1fr 1fr 1fr;
     visibility: hidden;
   } 
 }
+
+/* Для светлой темы 
+@media (prefers-color-scheme: light) {
+
+}
+
+*/
