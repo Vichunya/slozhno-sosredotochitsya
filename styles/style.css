@@ -419,11 +419,23 @@
   "section_title_what-decrease . ."
   "subheading_multitasking subheading_food subheading_gadget"
   "section_text-concentration section_text-carbohydrates section_text-gadgets";
-  gap: 
-  margin-top: 
 }
 }
 
+.section_better_concentrate {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  margin-top: 60px; 
+}
 
+.section_title_how_better_concentrate {
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.subheading_five-advives {
+ margin-top: 0px;
+}
 
 
