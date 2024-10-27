@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: url("../images/cover-image-dark.png");
+  background-image: url("../images/cover-image-dark.png"); /*перенести в переменную*/
   background-position: center;
   background-attachment: fixed;
   color: var(--main-color); 
@@ -61,11 +61,6 @@
 .header__theme-menu-button:focus-visible {
   border-block-end: 1px solid var(--menu-button-border-color);
 } 
-
-.theme-menu-button_type_dark {     /*Неон*/
-  border: 1px solid var(--menu-button-border-color); /*не работает*/
-  outline: 1px solid var(--menu-button-border-color); /*тоже не работает*/
-  }
 
 .header__theme-menu-item:not(:last-child) {
   margin-bottom: 10px;
@@ -354,8 +349,8 @@
   font-size: 
 }
 
-.title {       /*не умещается в три строки. Если добавляю ширину или высоту, то часть текста исчезает*/
-  margin-left: 513px; /* кажется, после добавления light перестал работать */
+.title {       
+  margin-left: 513px; 
   margin-right: 20px;
   font-size: 18px;
   line-height: 23.4px;
