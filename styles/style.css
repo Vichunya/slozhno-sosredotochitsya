@@ -438,4 +438,13 @@
  margin-top: 0px;
 }
 
+.subheading_in-pictures {
+  margin-top: 80px; /*в мобильной версии-50px, здесь 80 или 30 px ?*/
+}
 
+.footer {
+  font-size: 157px;
+  margin-top: 319px;
+  margin-left: 277px;
+  margin-right: 276px;  
+}
