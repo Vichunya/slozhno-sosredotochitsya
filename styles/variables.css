@@ -2,7 +2,8 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root {               
+:root {     
+  --background-image-color: url("../images/cover-image-dark.png");   
   --main-color: #f1b2ce;
   --decoration_element-color: #ff0070;
   --box-shadow-color: #ff0070;

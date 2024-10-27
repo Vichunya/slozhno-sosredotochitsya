@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: url("../images/cover-image-dark.png"); /*перенести в переменную*/
+  background-image: var(--background-image-color);
   background-position: center;
   background-attachment: fixed;
   color: var(--main-color); 
@@ -449,7 +449,7 @@
 }
 }
 
-/*  убирает REC из обоих версийЫ
+/*  убирает REC из обоих версий
 @media (prefers-color-scheme: light) {
   .decoration_element{
     visibility: hidden;
