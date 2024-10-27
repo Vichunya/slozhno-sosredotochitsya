@@ -420,7 +420,6 @@
   "subheading_multitasking subheading_food subheading_gadget"
   "section_text-concentration section_text-carbohydrates section_text-gadgets";
 }
-}
 
 .section_better_concentrate {
   display: grid;
@@ -444,7 +443,16 @@
 
 .footer {
   font-size: 157px;
-  margin-top: 319px;
+  margin-top: 319px; 
   margin-left: 277px;
   margin-right: 276px;  
 }
+}
+
+/*  убирает REC из обоих версийЫ
+@media (prefers-color-scheme: light) {
+  .decoration_element{
+    visibility: hidden;
+  }
+}
+*/
