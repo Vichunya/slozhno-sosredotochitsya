@@ -341,7 +341,13 @@
 .header__theme-menu {
  display: flex;
  justify-self: center; 
- 
+ margin-top: 20px;
+/*margin-left: 397px;*/ /*слишком большой отступ, для первого экрана, header__theme-menu не увидела другого отступа*/
+}
+
+.decoration_element { /*REC и навигация по макету отступы 20px, чтобы выровнить их у REC 30px получилось*/
+  margin-top: 30px;
+  margin-right: 29px;
 }
 
 .decoration_inscription_no-focus {
