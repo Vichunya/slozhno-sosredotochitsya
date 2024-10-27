@@ -362,7 +362,13 @@
   font-size: 18px;
   line-height: 23.4px;
   font-family: monospace;
+  width: 491px;
 }
+
+/*.break::after {     без break тоже работает после указания ширины
+  content: "\A";
+  white-space: pre;
+}*/
 
 .section_what_decrease_concentration {          
 display: grid;
