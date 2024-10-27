@@ -386,8 +386,13 @@
   margin-top: 0px;
 
 .section_what_decrease_concentration {          
-display: grid;
-
+  grid-template-areas: 
+  ""
+  ""
+  "";
+  gap: 
+  margin-top: 
+}
 }
 }
 
