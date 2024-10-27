@@ -365,10 +365,25 @@
   width: 491px;
 }
 
-/*.break::after {     без break тоже работает после указания ширины
+/*.break::after {     без break тоже работает после указания ширины, надо ли его писать ? 
   content: "\A";
   white-space: pre;
 }*/
+
+.section_hard-concentrate {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  margin-top: 60px; 
+}
+
+.section_title_hard-concentrate {
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+.subheading_multitasking-especially-hard-concentrate {    
+  margin-top: 0px;
 
 .section_what_decrease_concentration {          
 display: grid;
