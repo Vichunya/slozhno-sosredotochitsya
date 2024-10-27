@@ -11,3 +11,9 @@
   font-weight: bold;
   font-display: swap;
 }
+
+@media (min-width: 1024px) {
+  .title {
+    font-weight: bold;
+  }
+}
