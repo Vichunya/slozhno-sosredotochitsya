@@ -414,12 +414,13 @@
   grid-area: section_text-gadgets; 
 }
 
-.section_what_decrease_concentration {    /*не сработал*/      
+.section_what_decrease_concentration {        
   display: grid;
   grid-template-areas: 
   "section_title_what-decrease . ."
   "subheading_multitasking subheading_food subheading_gadget"
   "section_text-concentration section_text-carbohydrates section_text-gadgets";
+  gap: 20px;
 }
 
 .section_better_concentrate {
