@@ -415,6 +415,7 @@
 }
 
 .section_what_decrease_concentration {    /*не сработал*/      
+  display: grid;
   grid-template-areas: 
   "section_title_what-decrease . ."
   "subheading_multitasking subheading_food subheading_gadget"
