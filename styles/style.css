@@ -151,18 +151,16 @@
   text-decoration: none;
 }
 
-.word_link:hover {    /*не так работает, как и ниже с фокусом*/
+.word_link:hover {    /*не так работает*/
   text-decoration: underline;
+  /*mobile нет курсора*/
+  cursor: pointer;
+  background-color: blue; /*уточнить в фигме*/
 }
-
+ 
 .word_link:focus {  
   outline: 1px solid var(--menu-word-link-border-color);
   text-decoration: none; 
-}
-
-.word_link:hover {
-  /*mobile нет курсора*/
-  cursor: pointer;
 }
 
 .image_container {
