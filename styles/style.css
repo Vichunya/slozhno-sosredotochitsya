@@ -19,13 +19,20 @@
   block-size: 25px;
   position: absolute;
   inset-block-start: 633px;
-  inset-inline-end: 10px;
-  border-left: 1px solid var(decoration_element-color);
-  border-bottom: 1px solid var(decoration_element-color);
+  inset-inline-start: 10px;
+  border-left: 1px solid var(--decoration_element-color);
+  border-bottom: 1px solid var(--decoration_element-color);
 }
 
 .decorated-zone::after {
-
+  content: "";
+  inline-size: 25px;
+  block-size: 25px;
+  position: absolute;
+  inset-block-start: 20px;
+  inset-inline-end: 20px;
+  border-right: 1px solid var(--decoration_element-color);
+  border-top: 1px solid var(--decoration_element-color);
 }
 
 .decoration_element {
@@ -357,7 +364,7 @@
  }
 
 .decoration_element { /*REC и навигация по макету отступы 20px, чтобы выровнить их у REC 30px получилось*/
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 29px;
 }
 
