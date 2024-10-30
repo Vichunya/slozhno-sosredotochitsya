@@ -90,7 +90,6 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 55px;
-  /*font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);*/
 }
 
 .section_title_hard-concentrate {
@@ -197,7 +196,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .header__theme-menu-list {
-    list-style-type: none; /*надо ли дублировать это св-во ?*/
+    list-style-type: none; 
     display: flex;
     flex-direction: column;
     justify-content: end; 
@@ -362,7 +361,7 @@
   width: 491px;
 }
 
-.break::after {   
+.break::after {     
   content: "\A";
   white-space: pre;
 }
@@ -448,10 +447,8 @@
 }
 }
 
-/*  убирает REC из обоих версий
 @media (prefers-color-scheme: light) {
   .decoration_element{
     visibility: hidden;
   }
 }
-*/
