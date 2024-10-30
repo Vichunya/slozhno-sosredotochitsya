@@ -13,6 +13,21 @@
   display: grid;
 }
 
+.decorated-zone::before {
+  content: "";
+  inline-size: 25px;
+  block-size: 25px;
+  position: absolute;
+  inset-block-start: 633px;
+  inset-inline-end: 10px;
+  border-left: 1px solid var(decoration_element-color);
+  border-bottom: 1px solid var(decoration_element-color);
+}
+
+.decorated-zone::after {
+
+}
+
 .decoration_element {
   justify-self: end;
   margin-right: 10px;
