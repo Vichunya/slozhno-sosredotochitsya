@@ -13,22 +13,21 @@
   display: grid;
 }
 
-.decorated-zone::before {
+.decorated-zone::before, .decorated-zone::after {
   content: "";
   inline-size: 25px;
   block-size: 25px;
   position: absolute;
-  inset-block-start: 633px;
+}
+
+.decorated-zone::before {
+  inset-block-start: 723px;
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
 }
 
 .decorated-zone::after {
-  content: "";
-  inline-size: 25px;
-  block-size: 25px;
-  position: absolute;
   inset-block-start: 20px;
   inset-inline-end: 20px;
   border-right: 1px solid var(--decoration_element-color);
@@ -377,6 +376,7 @@
   margin-left: 513px; 
   margin-right: 20px;
   margin-top: 114px;
+  margin-bottom: 134px;
   font-size: 18px;
   line-height: 23.4px;
   font-family: monospace;
