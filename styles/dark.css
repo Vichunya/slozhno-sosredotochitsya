@@ -9,7 +9,7 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --background-image-color: url("../images/cover-image-dark.png");   
+  --background-image-color: url("../images/cover-image-dark.png");
   --main-color: #f1b2ce; /*этот цвет только для светлой темы ?*/
   --decoration_element-color: #ff0070;
   --box-shadow-color: #ff0070;
@@ -17,12 +17,12 @@
   --menu-button-border-color: #ff0070;
   --decoration_inscription_no-focus-color: #db00ff;
   --text-shadow-color: #ff0070;
-  --title-background-color:#ff0070;
-  --text-color: #f1b2ce ;
+  --title-background-color: #ff0070;
+  --text-color: #f1b2ce;
   --subheading-color: #000028;
   --advice_item-color: #000028;
-  --section-title-color: #FF0070; /*надо дублировать цвет (один для текста, второй - для фона)*/
-  --subheading-background-color: #FF0070; 
+  --section-title-color: #ff0070; /*надо дублировать цвет (один для текста, второй - для фона)*/
+  --subheading-background-color: #ff0070;
   --advice_item-background-color: #ff0070;
-  --footer-color:#db00ff;
+  --footer-color: #db00ff;
 }
