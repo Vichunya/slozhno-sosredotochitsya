@@ -333,15 +333,14 @@
  display: flex;
  flex-direction: row;
  justify-content: center;
- margin-top: 20px;
+ margin-top: 0px; 
 }
 
 .header__theme-menu {
  display: flex;
  justify-self: center; 
  margin-top: 20px;
-/*margin-left: 397px;*/ /*слишком большой отступ, для первого экрана, header__theme-menu не увидела другого отступа*/
-}
+ }
 
 .decoration_element { /*REC и навигация по макету отступы 20px, чтобы выровнить их у REC 30px получилось*/
   margin-top: 30px;
@@ -363,10 +362,10 @@
   width: 491px;
 }
 
-/*.break::after {     без break тоже работает после указания ширины, надо ли его писать ? 
+.break::after {   
   content: "\A";
   white-space: pre;
-}*/
+}
 
 .section_hard-concentrate {
   display: grid;
