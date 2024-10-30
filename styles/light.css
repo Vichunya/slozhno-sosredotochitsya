@@ -13,11 +13,11 @@
   --main-color: #f1b2ce;
   --box-shadow-color: #FF8DCB;
   --menu-button-color: #353430;
-  --menu-button-border-color: #353430; /*когда только нажимаешь - розовая обводка, при нажатии на любое место странице становится черной*/
+  --menu-button-border-color: #353430;
   --decoration_inscription_no-focus-color: #FFC2E6;
   --text-shadow-color: #FF0070;
   --title-background-color: #FF8DCB; 
-  --text-color: #353430;  /* не меняет цвет текста*/
+  --text-color: #353430; 
   --subheading-color: #353430; 
   --advice_item-color: #353430; 
   --section-title-color: #353430; 
@@ -26,7 +26,5 @@
   --footer-color:#FFC2E6;
 }
 
-.title {
-  font-weight: bold;   /* не работает. Внесла в fonts css то же самое*/
-}
+
 
