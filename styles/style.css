@@ -447,7 +447,7 @@
 }
 }
 
-@media (prefers-color-scheme: light) {
+@media (color-scheme: light) {
   .decoration_element{
     visibility: hidden;
   }
