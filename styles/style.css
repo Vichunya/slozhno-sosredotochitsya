@@ -449,6 +449,6 @@
 
 @media (color-scheme: light) {
   .decoration_element{
-    visibility: hidden;
+    display: none;
   }
 }
