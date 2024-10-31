@@ -349,7 +349,29 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {      /* разрешение 1024px */
+  .decorated-zone::before,
+  .decorated-zone::after {
+    content: "";
+    inline-size: 25px;
+    block-size: 25px;
+    position: absolute;          
+  }
+  
+  .decorated-zone::before {
+    inset-block-start: 723px;
+    inset-inline-start: 10px;
+    border-left: 1px solid var(--decoration_element-color);
+    border-bottom: 1px solid var(--decoration_element-color);
+  }
+  
+  .decorated-zone::after {
+    inset-block-start: 20px;
+    inset-inline-end: 20px;
+    border-right: 1px solid var(--decoration_element-color);
+    border-top: 1px solid var(--decoration_element-color);
+  }
+
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
@@ -471,7 +493,7 @@
   }
 }
                                              
-@media (prefers-color-scheme: light) {            /* не работает, может надо что-то сделать с переопределением цветов ? Или я не так записываю ? */
+@media (prefers-color-scheme: light) {    /* не работает. Может не видит light.css или я не так записываю ?*/
   .page {
     /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
     background-image: var(--background-image-color);
