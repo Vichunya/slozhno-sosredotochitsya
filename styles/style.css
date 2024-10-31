@@ -237,6 +237,33 @@
     margin-bottom: 162px;
   }
 
+  .decoration_element {
+    margin-top: 20px;
+    /*margin-right: 29px;*/  /*большой сдвиг*/
+  }
+
+  .decorated-zone::before,
+  .decorated-zone::after {
+    content: "";
+    inline-size: 25px;
+    block-size: 25px;
+    position: absolute;
+  }
+  
+  .decorated-zone::before {
+    inset-block-start: 979px;   
+    inset-inline-start: 20px;
+    border-left: 1px solid var(--decoration_element-color);
+    border-bottom: 1px solid var(--decoration_element-color);
+  }
+  
+  .decorated-zone::after {   /*делаю по координатам, все другое. Значение - на глаз*/
+    inset-block-start: 18px;
+    inset-inline-end: 5px;
+    border-right: 1px solid var(--decoration_element-color);
+    border-top: 1px solid var(--decoration_element-color);
+  } 
+
   .title {
     margin-left: 384px;
     margin-right: 20px;
@@ -310,7 +337,7 @@
   .footer {
     margin-top: 463px;
     margin-bottom: 462px;
-  }
+  } 
 }
 
 @media (min-width: 768px) {
