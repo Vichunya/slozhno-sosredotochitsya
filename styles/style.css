@@ -174,12 +174,11 @@
   text-decoration: none;
 }
 
-.word_link:hover {
+.word_link:hover {    /*hover убрать ? */
   /*не так работает*/
   text-decoration: underline;
   /*mobile нет курсора*/
   cursor: pointer;
-  background-color: blue; /*уточнить в фигме*/
 }
 
 .word_link:focus {
