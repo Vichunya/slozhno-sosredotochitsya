@@ -22,7 +22,7 @@
 }
 
 .decorated-zone::before {
-  inset-block-start: 550px;   /*делаю по координатам, все другое. Значение - на глаз*/
+  inset-block-start: 633px;   /*делаю по координатам, все другое. Значение - на глаз*/
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
@@ -57,7 +57,7 @@
 
 .header__theme-menu-list {
   list-style-type: none;
-  margin-top: 39px; /*по макету 39 между контейнерами*/
+  margin-top: 75px;
   margin-right: 10px;
 }
 
@@ -114,10 +114,11 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 55px;
+  margin-bottom: 106px;
 }
 
 .section_title_hard-concentrate {
-  margin-top: 40px;
+  margin-top: 40px; 
 }
 
 .main {
