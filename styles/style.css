@@ -551,10 +551,10 @@
 @media (prefers-color-scheme: light) {   
   .page {
     /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-    background-image: var(--background-image-color);
+    background-image: var(--text-color);
     background-position: center;
     background-attachment: fixed;
-    color: var(--text-color);
+    color: var(--background-image-color);
     font-family: "IBM", sans-serif;
   }
 
