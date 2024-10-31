@@ -22,15 +22,15 @@
 }
 
 .decorated-zone::before {
-  inset-block-start: 723px;
+  inset-block-start: 550px;   /*делаю по координатам, все другое. Значение - на глаз*/
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
 }
 
-.decorated-zone::after {
-  inset-block-start: 20px;
-  inset-inline-end: 20px;
+.decorated-zone::after {   /*делаю по координатам, все другое. Значение - на глаз*/
+  inset-block-start: 10px;
+  inset-inline-end: 5px;
   border-right: 1px solid var(--decoration_element-color);
   border-top: 1px solid var(--decoration_element-color);
 }
