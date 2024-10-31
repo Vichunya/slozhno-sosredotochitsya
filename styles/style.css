@@ -431,6 +431,7 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 0px;
+    gap: 10px;
   }
 
   .header__theme-menu {
