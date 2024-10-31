@@ -487,7 +487,7 @@
     grid-area: section_title_what-decrease;
   }
 
-  .subheading_multitasking {
+  .subheading_multitasking {                   /*как убрать отступ между текстом и подзаголовками ? Сейчас там стоит gap */
     grid-area: subheading_multitasking;
   }
 
@@ -548,7 +548,7 @@
   }
 }
                                              
-@media (prefers-color-scheme: light) {    /* не работает. Может не видит light.css или я не так записываю ?*/
+@media (prefers-color-scheme: light) {   
   .page {
     /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
     background-image: var(--background-image-color);
