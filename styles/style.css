@@ -470,9 +470,41 @@
     margin-right: 276px;
   }
 }
+                                             
+@media (prefers-color-scheme: light) {            /* не работает, может надо что-то сделать с переопределением цветов ? Или я не так записываю ? */
+  .page {
+    /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+    background-image: var(--background-image-color);
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-color);
+    font-family: "IBM", sans-serif;
+  }
 
-@media (color-scheme: light) {
+  .decoration_inscription_no-focus {
+    font-size: 116px;
+    text-decoration: bold;
+    color: var(--decoration_inscription_no-focus-color);
+    line-height: 95.7px;
+    text-shadow: 4px 4px 0 var(--text-shadow-color);
+    font-weight: 700;
+    margin-top: 65px;
+  }
+}
+
+
+@media (color-scheme: light) {  /* не работает*/
+  .decoration_element {
+    display: none;
+  } 
+}
+
+/* убирает элемент из обоих версий: и display none и visibility hidden*/
+/*
+@media (prefers-color-scheme: light) {  
   .decoration_element {
     display: none;
   }
-}
+} */
+
+
