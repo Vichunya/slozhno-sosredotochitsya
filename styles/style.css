@@ -22,7 +22,7 @@
 }
 
 .decorated-zone::before {
-  inset-block-start: 633px;   /*делаю по координатам, все другое. Значение - на глаз*/
+  inset-block-start: 633px;   
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
@@ -129,7 +129,7 @@
 }
 
 .section_title {
-  color: var(--section-title-color);
+  color: var(--section-title-color);    
   font-size: 18px;
   line-height: 23.4px;
   font-weight: bold;
@@ -249,18 +249,16 @@
 } */
 
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {         /* С 768px */
   .header__theme-menu-list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin-top: 146px;
+    margin-top: 192px;
     margin-right: 20px;
   }
-}
 
-@media (min-width: 768px) and (max-width: 1023px) {
   .decoration_inscription_no-focus {
     display: inline;
     margin-top: 173px;
@@ -300,9 +298,7 @@
     margin-right: 20px;
     margin-bottom: 183px;
   }
-}
 
-@media (min-width: 768px) and (max-width: 1023px) {
   .section_hard-concentrate {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -331,11 +327,11 @@
   }
 
   .subheading_dopamine {
-    margin-top: 20px; /*для выравнивания с заголовком слева, подтянул вверх*/
+    margin-top: 20px; /*для выравнивания с заголовком слева, подтянул вверх*/ 
   }
 
   .section_title {
-    margin-top: 0px;
+    margin-top: 80px;
   }
 
   .subheading_five-advives {
