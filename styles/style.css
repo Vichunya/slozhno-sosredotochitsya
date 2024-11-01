@@ -405,7 +405,7 @@
   }
 
   .decorated-zone::before {
-    inset-block-start: 500px; /* не по координатам из фигмы*/
+    inset-block-start: 500px; 
     inset-inline-start: 10px;
     border-left: 1px solid var(--decoration_element-color);
     border-bottom: 1px solid var(--decoration_element-color);
@@ -475,8 +475,17 @@
   }
 
   .subheading_multitasking {
-    /*как убрать отступ между текстом и подзаголовками ? Сейчас там стоит gap */
     grid-area: subheading_multitasking;
+    margin-top: 0px;
+  }
+
+  .subheading {
+    margin-top: 10px;
+  }
+
+  .main {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .section_text-concentration {
@@ -505,7 +514,12 @@
       "section_title_what-decrease . ."
       "subheading_multitasking subheading_food subheading_gadget"
       "section_text-concentration section_text-carbohydrates section_text-gadgets";
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+
+  .section_text {
+    margin-top: 0px;
   }
 
   .section_better_concentrate {
