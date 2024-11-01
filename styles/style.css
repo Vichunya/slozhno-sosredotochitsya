@@ -218,26 +218,27 @@
   margin-right: 13px;
 }
 
-.footer_decorated-zone::before, .footer_decorated-zone::after {
+.footer_decorated-zone::before,
+.footer_decorated-zone::after {
   content: "";
   inline-size: 25px;
   block-size: 25px;
   position: absolute;
-} 
+}
 
 .footer_decorated-zone::before {
-  inset-block-start: 6700px;   
+  inset-block-start: 6700px;
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
-} 
+}
 
-.footer_decorated-zone::after{
-  inset-block-start: 6150px; 
+.footer_decorated-zone::after {
+  inset-block-start: 6150px;
   inset-inline-end: 5px;
   border-right: 1px solid var(--decoration_element-color);
   border-top: 1px solid var(--decoration_element-color);
-} 
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
   /* С 768px */
@@ -259,7 +260,7 @@
 
   .decoration_element {
     margin-top: 20px;
-    margin-right: 20px; 
+    margin-right: 20px;
   }
 
   .decorated-zone::before,
@@ -358,26 +359,27 @@
   }
 }
 
-.footer_decorated-zone::before, .footer_decorated-zone::after {
+.footer_decorated-zone::before,
+.footer_decorated-zone::after {
   content: "";
   inline-size: 25px;
   block-size: 25px;
   position: absolute;
-} 
+}
 
 .footer_decorated-zone::before {
-  inset-block-start: 5700px;   
+  inset-block-start: 5700px;
   inset-inline-start: 15px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
-} 
+}
 
-.footer_decorated-zone::after{
-  inset-block-start: 4900px; 
+.footer_decorated-zone::after {
+  inset-block-start: 4900px;
   inset-inline-end: 15px;
   border-right: 1px solid var(--decoration_element-color);
   border-top: 1px solid var(--decoration_element-color);
-} 
+}
 
 @media (min-width: 768px) {
   .image_container {
@@ -426,7 +428,7 @@
   }
 
   .decorated-zone::before {
-    inset-block-start: 500px; 
+    inset-block-start: 500px;
     inset-inline-start: 10px;
     border-left: 1px solid var(--decoration_element-color);
     border-bottom: 1px solid var(--decoration_element-color);
@@ -570,4 +572,3 @@
     margin-right: 276px;
   }
 }
-
