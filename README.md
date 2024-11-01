@@ -1,1 +1,1 @@
-Project Slozhno sosredotochitsya 
+https://github.com/Vichunya/slozhno-sosredotochitsya.git
