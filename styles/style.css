@@ -551,23 +551,14 @@
 @media (prefers-color-scheme: light) {   
   .page {
     /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-    background-image: var(--text-color);
+    background-image: var(--background-image-color);
     background-position: center;
     background-attachment: fixed;
-    color: var(--background-image-color);
+    color: var(--text-color);
     font-family: "IBM", sans-serif;
   }
-
-  .decoration_inscription_no-focus {
-    font-size: 116px;
-    text-decoration: bold;
-    color: var(--decoration_inscription_no-focus-color);
-    line-height: 95.7px;
-    text-shadow: 4px 4px 0 var(--text-shadow-color);
-    font-weight: 700;
-    margin-top: 65px;
-  }
 }
+
 
 
 @media (color-scheme: light) {  /* не работает*/
