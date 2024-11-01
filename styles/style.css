@@ -118,6 +118,11 @@
   margin-bottom: 106px;
 }
 
+.break::after {
+  content: "\A";
+  white-space: pre;
+}
+
 .section_title_hard-concentrate {
   margin-top: 40px;
 }
@@ -176,14 +181,6 @@
   text-decoration: none;
 }
 
-.word_link:hover {
-  /*hover убрать ? */
-  /*не так работает*/
-  text-decoration: underline;
-  /*mobile нет курсора*/
-  cursor: pointer;
-}
-
 .word_link:focus {
   outline: 1px solid var(--menu-word-link-border-color);
   text-decoration: none;
@@ -229,14 +226,14 @@
 } 
 
 .footer_decorated-zone::before {
-  inset-block-start: 6710px;   
+  inset-block-start: 6700px;   
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
 } 
 
 .footer_decorated-zone::after{
-  inset-block-start: 6100px;
+  inset-block-start: 6080px; 
   inset-inline-end: 5px;
   border-right: 1px solid var(--decoration_element-color);
   border-top: 1px solid var(--decoration_element-color);
@@ -262,7 +259,7 @@
 
   .decoration_element {
     margin-top: 20px;
-    /*margin-right: 29px;*/ /*большой сдвиг*/
+    margin-right: 20px; 
   }
 
   .decorated-zone::before,
@@ -281,9 +278,8 @@
   }
 
   .decorated-zone::after {
-    /*делаю по координатам, все другое. Значение - на глаз*/
     inset-block-start: 18px;
-    inset-inline-end: 5px;
+    inset-inline-end: 10px;
     border-right: 1px solid var(--decoration_element-color);
     border-top: 1px solid var(--decoration_element-color);
   }
@@ -456,11 +452,6 @@
     line-height: 23.4px;
     font-family: monospace;
     width: 491px;
-  }
-
-  .break::after {
-    content: "\A";
-    white-space: pre;
   }
 
   .section_hard-concentrate {
