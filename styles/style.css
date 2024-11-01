@@ -226,7 +226,7 @@
 } 
 
 .footer_decorated-zone::before {
-  inset-block-start: 6700px;   
+  inset-block-start: 6730px;   
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
