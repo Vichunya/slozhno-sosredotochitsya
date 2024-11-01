@@ -22,13 +22,14 @@
 }
 
 .decorated-zone::before {
-  inset-block-start: 633px;   
+  inset-block-start: 633px;
   inset-inline-start: 10px;
   border-left: 1px solid var(--decoration_element-color);
   border-bottom: 1px solid var(--decoration_element-color);
 }
 
-.decorated-zone::after {   /*делаю по координатам, все другое. Значение - на глаз*/
+.decorated-zone::after {
+  /*делаю по координатам, все другое. Значение - на глаз*/
   inset-block-start: 10px;
   inset-inline-end: 5px;
   border-right: 1px solid var(--decoration_element-color);
@@ -118,7 +119,7 @@
 }
 
 .section_title_hard-concentrate {
-  margin-top: 40px; 
+  margin-top: 40px;
 }
 
 .main {
@@ -129,7 +130,7 @@
 }
 
 .section_title {
-  color: var(--section-title-color);    
+  color: var(--section-title-color);
   font-size: 18px;
   line-height: 23.4px;
   font-weight: bold;
@@ -175,7 +176,8 @@
   text-decoration: none;
 }
 
-.word_link:hover {    /*hover убрать ? */
+.word_link:hover {
+  /*hover убрать ? */
   /*не так работает*/
   text-decoration: underline;
   /*mobile нет курсора*/
@@ -235,7 +237,6 @@
   border-bottom: 1px solid var(--decoration_element-color);
 } */
 
-
 /*.footer_decorated-zone::after{
   content: "";
   display: inline-block;
@@ -248,8 +249,8 @@
   margin-bottom: 2px;
 } */
 
-
-@media (min-width: 768px) and (max-width: 1023px) {         /* С 768px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* С 768px */
   .header__theme-menu-list {
     list-style-type: none;
     display: flex;
@@ -268,7 +269,7 @@
 
   .decoration_element {
     margin-top: 20px;
-    /*margin-right: 29px;*/  /*большой сдвиг*/
+    /*margin-right: 29px;*/ /*большой сдвиг*/
   }
 
   .decorated-zone::before,
@@ -278,20 +279,21 @@
     block-size: 25px;
     position: absolute;
   }
-  
+
   .decorated-zone::before {
-    inset-block-start: 979px;   
+    inset-block-start: 979px;
     inset-inline-start: 20px;
     border-left: 1px solid var(--decoration_element-color);
     border-bottom: 1px solid var(--decoration_element-color);
   }
-  
-  .decorated-zone::after {   /*делаю по координатам, все другое. Значение - на глаз*/
+
+  .decorated-zone::after {
+    /*делаю по координатам, все другое. Значение - на глаз*/
     inset-block-start: 18px;
     inset-inline-end: 5px;
     border-right: 1px solid var(--decoration_element-color);
     border-top: 1px solid var(--decoration_element-color);
-  } 
+  }
 
   .title {
     margin-left: 384px;
@@ -327,7 +329,7 @@
   }
 
   .subheading_dopamine {
-    margin-top: 20px; /*для выравнивания с заголовком слева, подтянул вверх*/ 
+    margin-top: 20px; /*для выравнивания с заголовком слева, подтянул вверх*/
   }
 
   .section_title {
@@ -364,7 +366,7 @@
   .footer {
     margin-top: 463px;
     margin-bottom: 462px;
-  } 
+  }
 }
 
 @media (min-width: 768px) {
@@ -403,22 +405,23 @@
   }
 }
 
-@media (min-width: 1024px) {      /* разрешение 1024px */
+@media (min-width: 1024px) {
+  /* разрешение 1024px */
   .decorated-zone::before,
   .decorated-zone::after {
     content: "";
     inline-size: 25px;
     block-size: 25px;
-    position: absolute;          
+    position: absolute;
   }
-  
+
   .decorated-zone::before {
-    inset-block-start: 500px;   /* не по координатам из фигмы*/
+    inset-block-start: 500px; /* не по координатам из фигмы*/
     inset-inline-start: 10px;
     border-left: 1px solid var(--decoration_element-color);
     border-bottom: 1px solid var(--decoration_element-color);
   }
-  
+
   .decorated-zone::after {
     inset-block-start: 20px;
     inset-inline-end: 20px;
@@ -487,7 +490,8 @@
     grid-area: section_title_what-decrease;
   }
 
-  .subheading_multitasking {                   /*как убрать отступ между текстом и подзаголовками ? Сейчас там стоит gap */
+  .subheading_multitasking {
+    /*как убрать отступ между текстом и подзаголовками ? Сейчас там стоит gap */
     grid-area: subheading_multitasking;
   }
 
@@ -547,32 +551,9 @@
     margin-right: 276px;
   }
 }
-                                             
-@media (prefers-color-scheme: light) {   
-  .page {
-    /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-    background-image: var(--background-image-color);
-    background-position: center;
-    background-attachment: fixed;
-    color: var(--text-color);
-    font-family: "IBM", sans-serif;
-  }
-}
 
-
-
-@media (color-scheme: light) {  /* не работает*/
-  .decoration_element {
-    display: none;
-  } 
-}
-
-/* убирает элемент из обоих версий: и display none и visibility hidden*/
-/*
 @media (prefers-color-scheme: light) {  
   .decoration_element {
     display: none;
   }
-} */
-
-
+} 
