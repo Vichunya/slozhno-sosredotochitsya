@@ -25,4 +25,7 @@
   --subheading-background-color: #ff0070;
   --advice_item-background-color: #ff0070;
   --footer-color: #db00ff;
+  .decoration_element {
+    display: block;
+  }
 }

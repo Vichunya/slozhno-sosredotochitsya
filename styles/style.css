@@ -552,8 +552,3 @@
   }
 }
 
-@media (prefers-color-scheme: light) {  
-  .decoration_element {
-    display: none;
-  }
-} 

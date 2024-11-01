@@ -24,6 +24,9 @@
   --subheading-background-color: #ff8dcb;
   --advice_item-background-color: #ff8dcb;
   --footer-color: #ffc2e6;
+  .decoration_element {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -44,4 +47,10 @@
     --advice_item-background-color: #ff8dcb;
     --footer-color: #ffc2e6;
   }
+
+  .decoration_element {
+    display: none;
+  }
 }
+
+
