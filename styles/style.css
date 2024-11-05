@@ -102,6 +102,7 @@
   text-shadow: 4px 4px 0 var(--text-shadow-color);
   font-weight: 700;
   margin-top: 65px;
+  margin-left: 10px;
 }
 
 .header__theme-menu {
