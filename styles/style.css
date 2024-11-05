@@ -41,7 +41,8 @@
   margin-right: 10px;
   color: var(--decoration_element-color);
   position: absolute;
-  margin-top: 10px;
+  left: 314px;
+  top: 10px;
 }
 
 .decoration_element::after {
@@ -259,8 +260,8 @@
   }
 
   .decoration_element {
-    margin-top: 20px;
-    margin-right: 20px;
+    left: 697px;
+    top: 20px;
   }
 
   .decorated-zone::before,
@@ -456,9 +457,8 @@
   }
 
   .decoration_element {
-    /*REC и навигация по макету отступы 20px, чтобы выровнить их у REC 30px получилось*/
-    margin-top: 20px;
-    margin-right: 29px;
+   left: 952px;
+   top: 20px;
   }
 
   .decoration_inscription_no-focus {
