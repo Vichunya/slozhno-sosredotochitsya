@@ -3,6 +3,8 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-image: var(--background-image-color);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   color: var(--text-color);
@@ -93,7 +95,7 @@
 }
 
 .decoration_inscription_no-focus {
-  font-size: 116px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-decoration: bold;
   color: var(--decoration_inscription_no-focus-color);
   line-height: 95.7px;
@@ -117,11 +119,6 @@
   margin-right: 10px;
   margin-top: 55px;
   margin-bottom: 106px;
-}
-
-.break::after {
-  content: "\A";
-  white-space: pre;
 }
 
 .section_title_hard-concentrate {
@@ -262,14 +259,6 @@
   .decoration_element {
     left: 697px;
     top: 20px;
-  }
-
-  .decorated-zone::before,
-  .decorated-zone::after {
-    content: "";
-    inline-size: 25px;
-    block-size: 25px;
-    position: absolute;
   }
 
   .decorated-zone::before {
@@ -416,18 +405,10 @@
   .image-street {
     grid-area: image-street;
   }
-}
+}    
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {     
   /* разрешение 1024px */
-  .decorated-zone::before,
-  .decorated-zone::after {
-    content: "";
-    inline-size: 25px;
-    block-size: 25px;
-    position: absolute;
-  }
-
   .decorated-zone::before {
     inset-block-start: 500px;
     inset-inline-start: 10px;
