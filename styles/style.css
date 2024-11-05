@@ -70,6 +70,8 @@
   background-color: transparent;
   border: none;
   text-transform: lowercase;
+  min-width: 70px;
+  min-height: 26px;
 }
 
 .header__theme-menu-button_active {
@@ -253,8 +255,8 @@
   .decoration_inscription_no-focus {
     display: inline;
     margin-top: 173px;
-    margin-right: 191.16px;
     margin-bottom: 162px;
+    margin-left: 20px;
   }
 
   .decoration_element {
@@ -445,6 +447,7 @@
 
   .decoration_inscription_no-focus {
     margin-top: 273px;
+    margin-left: 20px;
     font-size: 157px;
   }
 
