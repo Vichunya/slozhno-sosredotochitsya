@@ -292,7 +292,7 @@
     margin-top: 60px;
   }
 
-  .section_title_hard-concentrate {
+  .section_title_hard-concentrate {  /*вместо него section title отступы, а этот класс удалить*/
     margin-top: 0px;
     margin-right: 20px;
   }
@@ -310,10 +310,6 @@
 
   .section_what_decrease_concentration {
     font-family: monospace;
-  }
-
-  .subheading_dopamine {
-    margin-top: 20px; /*для выравнивания с заголовком слева, подтянул вверх*/
   }
 
   .section_title {
