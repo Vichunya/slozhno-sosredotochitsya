@@ -28,6 +28,9 @@
   .decoration_element {
     display: none;
   }
+  .word_link:focus {
+    outline: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -52,5 +55,9 @@
 
   .decoration_element {
     display: none;
+  }
+
+  .word_link:focus {
+    outline: none;
   }
 }
