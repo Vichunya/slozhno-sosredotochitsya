@@ -263,6 +263,15 @@
     margin-top: 0px;
   }
 
+  .subheading {
+    margin-top: 0px;
+  }
+
+  .section_group {
+    display: grid;
+    gap: 20px;
+  }
+
   .section {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -270,15 +279,8 @@
     margin-top: 60px;
   }
 
-
-  .subheading_multitasking-especially-hard-concentrate {
-    margin-top: 0px;
-    font-size: 18px;
-    font-family: monospace;
-  }
-
   .section_title_what-decrease {
-    margin-top: 80px;
+    margin-top: 80px; 
     margin-right: 512px;
   }
 
@@ -405,10 +407,6 @@
   .section_title_hard-concentrate {
     margin-top: 0px;
     margin-right: 20px;
-  }
-
-  .subheading_multitasking-especially-hard-concentrate {
-    margin-top: 0px;
   }
 
   .section_title_what-decrease {
