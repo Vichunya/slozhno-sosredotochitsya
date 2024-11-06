@@ -478,5 +478,6 @@
     font-size: 157px;
     min-width: 1024px;
     min-height: 768px;
+    /*margin-top: 60px; нужен ли он ?*/
   }
 }
