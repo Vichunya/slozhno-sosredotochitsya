@@ -190,6 +190,7 @@
 .image_container {
   display: grid;
   gap: 10px;
+  margin-top: 10px;
 }
 
 .image {
@@ -211,12 +212,12 @@
   line-height: 95.7px;
   text-shadow: 2px 2px 0 var(--text-shadow-color);
   font-weight: 700;
-  margin-top: 65px;
   text-align: center;
-  margin-top: 286px;
-  margin-bottom: 285px;
-  margin-left: 14px;
-  margin-right: 13px;
+  min-width: 375px;
+  min-height: 668px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (width>=768px) {
