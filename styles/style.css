@@ -187,6 +187,10 @@
   text-decoration: none;
 }
 
+.word_link:hover {
+  text-decoration: underline;
+}
+
 .image_container {
   display: grid;
   gap: 10px;
