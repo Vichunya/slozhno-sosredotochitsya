@@ -344,8 +344,8 @@
   }
 
   .footer {
-    margin-top: 463px;
-    margin-bottom: 462px;
+    min-width: 768px;
+    min-height: 1024px;
   }
 }
   
@@ -474,8 +474,7 @@
 
   .footer {
     font-size: 157px;
-    margin-top: 319px;
-    margin-left: 277px;
-    margin-right: 276px;
+    min-width: 1024px;
+    min-height: 768px;
   }
 }
