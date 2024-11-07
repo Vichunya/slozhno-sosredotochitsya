@@ -33,7 +33,7 @@
   }
   .word_link:hover {
     text-decoration: underline;
-    border-bottom-color:#353430;   /*не меняет цвет на темный*/
+    border-bottom-color:#353430;  
   }
    
 }
@@ -68,6 +68,6 @@
 
   .word_link:hover {
     text-decoration: underline;
-    border-bottom-color:#353430;   /*не меняет цвет на темный*/
+    border-bottom-color:#353430;   
   }
 }
