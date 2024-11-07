@@ -13,7 +13,7 @@
 
 .header {
   display: grid;
-  min-width: 375px;    
+  min-width: 375px;
   min-height: 668px;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .decorated-zone::after {
-  top: 10px; 
+  top: 10px;
   right: 10px;
   border-right: 1px solid var(--decoration_element-color);
   border-top: 1px solid var(--decoration_element-color);
@@ -248,14 +248,14 @@
     top: 20px;
   }
 
-  .decorated-zone::before {   
+  .decorated-zone::before {
     bottom: 20px;
     left: 20px;
   }
 
-  .decorated-zone::after {                   
-   top: 20px;
-   right: 20px;
+  .decorated-zone::after {
+    top: 20px;
+    right: 20px;
   }
 
   .title {
@@ -271,7 +271,7 @@
 
   .section_group {
     display: grid;
-    gap: 20px; 
+    gap: 20px;
   }
 
   .section {
@@ -283,7 +283,7 @@
   }
 
   .section_title_what-decrease {
-    margin-top: 80px; 
+    margin-top: 80px;
     margin-right: 512px;
     margin-bottom: 20px;
   }
@@ -351,8 +351,8 @@
     min-height: 1024px;
   }
 }
-  
-@media (width>= 1024px) {     
+
+@media (width>= 1024px) {
   /* разрешение 1024px */
   .header {
     min-width: 1024px;
@@ -374,8 +374,8 @@
   }
 
   .decoration_element {
-   left: 952px;
-   top: 20px;
+    left: 952px;
+    top: 20px;
   }
 
   .decoration_inscription_no-focus {
@@ -388,11 +388,11 @@
   .title {
     margin-left: 513px;
     margin-right: 20px;
-    margin-top: 114px; 
+    margin-top: 114px;
     margin-bottom: 134px;
     font-size: 18px;
     line-height: 23.4px;
-    font-family: monospace; 
+    font-family: monospace;
     width: 491px;
   }
 
@@ -412,7 +412,7 @@
   }
 
   .section_title_how_better_concentrate {
-    margin-top: 0px;  
+    margin-top: 0px;
     margin-right: 20px;
   }
 
