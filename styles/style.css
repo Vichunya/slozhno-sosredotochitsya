@@ -13,8 +13,8 @@
 
 .header {
   display: grid;
-  /*min-width: 375px;    надо ли указывать ? Нижний уголок в хедере чуть выше 
-  min-height: 668;*/ 
+  min-width: 375px;    
+  min-height: 668px;
 }
 
 .decorated-zone {
