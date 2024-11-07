@@ -355,7 +355,7 @@
   /* разрешение 1024px */
   .header {
     min-width: 1024px;
-    min-height: 768px;
+    max-height: 768px; 
   }
 
   .header__theme-menu-list {
@@ -379,18 +379,14 @@
 
   .decoration_inscription_no-focus {
     margin-top: 273px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 0px;
     font-size: 157px;
   }
 
   .title {
     margin-left: 513px;
-    margin-right: 20px;
     margin-top: 114px;
-    margin-bottom: 134px;
-    font-size: 18px;
-    line-height: 23.4px;
     font-family: monospace;
     width: 491px;
   }
