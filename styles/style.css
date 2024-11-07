@@ -141,6 +141,7 @@
   font-size: 18px;
   line-height: 23.4px;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 .subheading {
@@ -291,13 +292,13 @@
     margin-top: 0px;
   }
 
-  .subheading_five-advives {
-    margin-top: 0px;
+  .section_title_grid {
+    margin-right: 512px;
+    margin-bottom: 20px;
   }
 
-  .subheading_food,
-  .subheading_gadget {
-    margin-top: 20px;
+  .subheading_five-advives {
+    margin-top: 0px;
   }
 
   .main {
