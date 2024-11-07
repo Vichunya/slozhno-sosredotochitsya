@@ -401,14 +401,10 @@
     margin-right: 20px;
   }
 
-  .section_title_what-decrease {
-    grid-area: section_title_what-decrease;
-    margin-right: 0px;
-  }
-
-  .subheading_multitasking {
-    grid-area: subheading_multitasking;
-    margin-top: 0px;
+  .section_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
   }
 
   .subheading {
@@ -418,40 +414,6 @@
   .main {
     margin-left: 20px;
     margin-right: 20px;
-  }
-
-  .section_text-concentration {
-    grid-area: section_text-concentration;
-  }
-
-  .subheading_food {
-    grid-area: subheading_food;
-  }
-
-  .section_text-carbohydrates {
-    grid-area: section_text-carbohydrates;
-  }
-
-  .subheading_gadget {
-    grid-area: subheading_gadget;
-  }
-
-  .section_text-gadgets {
-    grid-area: section_text-gadgets;
-  }
-
-  .section_what_decrease_concentration {
-    display: grid;
-    grid-template-areas:
-      "section_title_what-decrease . ."
-      "subheading_multitasking subheading_food subheading_gadget"
-      "section_text-concentration section_text-carbohydrates section_text-gadgets";
-    column-gap: 20px;
-    row-gap: 10px;
-  }
-
-  .section_text {
-    margin-top: 0px;
   }
 
   .section_title_how_better_concentrate {
