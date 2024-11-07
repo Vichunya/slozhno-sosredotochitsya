@@ -162,7 +162,7 @@
 
 .subheading_in-pictures {
   /*Что снижает концентрацию внимания? Как концентрироваться лучше,*/
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 .subheading_multitasking {
@@ -355,7 +355,7 @@
   /* разрешение 1024px */
   .header {
     min-width: 1024px;
-    max-height: 768px; 
+    max-height: 768px;
   }
 
   .header__theme-menu-list {
