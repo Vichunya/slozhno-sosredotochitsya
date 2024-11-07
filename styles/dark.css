@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image-color: url("../images/cover-image-dark.png");
-  --main-color: #f1b2ce; /*этот цвет только для светлой темы ?*/
+  --main-color: #f1b2ce; 
   --decoration_element-color: #ff0070;
   --box-shadow-color: #ff0070;
   --menu-button-color: #ff0070;

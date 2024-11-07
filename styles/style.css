@@ -178,7 +178,7 @@
 }
 
 .word_link {
-  color: #f1b2ce;
+  color: var(--text-color);
   text-shadow: 1.5px 1px 0 var(--text-shadow-color);
   text-decoration: none;
 }
@@ -354,6 +354,11 @@
   
 @media (width>= 1024px) {     
   /* разрешение 1024px */
+  .header {
+    min-width: 1024px;
+    min-height: 768px;
+  }
+
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
@@ -376,17 +381,18 @@
   .decoration_inscription_no-focus {
     margin-top: 273px;
     margin-left: 20px;
+    margin-bottom: 0px;
     font-size: 157px;
   }
 
   .title {
     margin-left: 513px;
     margin-right: 20px;
-    margin-top: 59px; /* 114 по макету, 55 в разрешении 375*//*кажется все равно большой отступ*/
+    margin-top: 114px; 
     margin-bottom: 134px;
     font-size: 18px;
     line-height: 23.4px;
-    font-family: monospace; /*в 1024 шрифт жирнее кажется*/
+    font-family: monospace; 
     width: 491px;
   }
 
@@ -465,6 +471,5 @@
     font-size: 157px;
     min-width: 1024px;
     min-height: 768px;
-    /*margin-top: 60px; нужен ли он ?*/
   }
 }
