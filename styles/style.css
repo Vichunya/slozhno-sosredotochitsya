@@ -160,10 +160,9 @@
   margin-top: 20px;
 }
 
-.section_title,
 .subheading_in-pictures {
   /*Что снижает концентрацию внимания? Как концентрироваться лучше,*/
-  margin-top: 50px; /*А можно в картинках?*/
+  margin-top: 50px; 
 }
 
 .subheading_multitasking {
