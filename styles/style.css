@@ -396,11 +396,6 @@
     width: 491px;
   }
 
-  .section_title_hard-concentrate {
-    margin-top: 0px;
-    margin-right: 20px;
-  }
-
   .section_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
