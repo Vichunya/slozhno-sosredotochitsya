@@ -391,6 +391,10 @@
     width: 491px;
   }
 
+  .section_title_grid {
+    margin-right: 689px;
+  }
+
   .section_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
