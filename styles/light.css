@@ -24,4 +24,50 @@
   --subheading-background-color: #ff8dcb;
   --advice_item-background-color: #ff8dcb;
   --footer-color: #ffc2e6;
+  --decoration_element-color: #353430;
+  .decoration_element {
+    display: none;
+  }
+  .word_link:focus {
+    outline: none;
+  }
+  .word_link:hover {
+    text-decoration: underline;
+    border-bottom-color:#353430;   /*не меняет цвет на темный*/
+  }
+   
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-image-color: url("../images/cover-image-light.png");
+    --main-color: #f1b2ce;
+    --box-shadow-color: #ff8dcb;
+    --menu-button-color: #353430;
+    --menu-button-border-color: #353430;
+    --decoration_inscription_no-focus-color: #ffc2e6;
+    --text-shadow-color: #ff0070;
+    --title-background-color: #ff8dcb;
+    --text-color: #353430;
+    --subheading-color: #353430;
+    --advice_item-color: #353430;
+    --section-title-color: #353430;
+    --subheading-background-color: #ff8dcb;
+    --advice_item-background-color: #ff8dcb;
+    --footer-color: #ffc2e6;
+    --decoration_element-color: #353430;
+  }
+
+  .decoration_element {
+    display: none;
+  }
+
+  .word_link:focus {
+    outline: none;
+  }
+
+  .word_link:hover {
+    text-decoration: underline;
+    border-bottom-color:#353430;   /*не меняет цвет на темный*/
+  }
 }

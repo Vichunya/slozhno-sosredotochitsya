@@ -21,8 +21,11 @@
   --text-color: #f1b2ce;
   --subheading-color: #000028;
   --advice_item-color: #000028;
-  --section-title-color: #ff0070; 
+  --section-title-color: #ff0070;
   --subheading-background-color: #ff0070;
   --advice_item-background-color: #ff0070;
   --footer-color: #db00ff;
+  .decoration_element {
+    display: block;
+  }
 }
