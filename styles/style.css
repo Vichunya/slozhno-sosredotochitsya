@@ -126,7 +126,7 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 55px;
-  margin-bottom: 40px;
+  margin-bottom: 66px;
 }
 
 .main {
@@ -248,18 +248,14 @@
     top: 20px;
   }
 
-  .decorated-zone::before {   /* удалить ? */
-    inset-block-start: 979px;                    
-    inset-inline-start: 20px;
-    border-left: 1px solid var(--decoration_element-color);
-    border-bottom: 1px solid var(--decoration_element-color);
+  .decorated-zone::before {   
+    bottom: 20px;
+    left: 20px;
   }
 
-  .decorated-zone::after {                   /*правый отступ 20px ? */
-    inset-block-start: 18px;
-    inset-inline-end: 10px;
-    border-right: 1px solid var(--decoration_element-color);
-    border-top: 1px solid var(--decoration_element-color);
+  .decorated-zone::after {                   
+   top: 20px;
+   right: 20px;
   }
 
   .title {
@@ -358,20 +354,6 @@
   
 @media (width>= 1024px) {     
   /* разрешение 1024px */
-  .decorated-zone::before {
-    inset-block-start: 500px;            /*удалить ?*/
-    inset-inline-start: 10px;
-    border-left: 1px solid var(--decoration_element-color);
-    border-bottom: 1px solid var(--decoration_element-color);
-  }
-
-  .decorated-zone::after {
-    inset-block-start: 20px;                /*удалить все и только добавить отступ ? */
-    inset-inline-end: 20px;
-    border-right: 1px solid var(--decoration_element-color);
-    border-top: 1px solid var(--decoration_element-color);
-  }
-
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
