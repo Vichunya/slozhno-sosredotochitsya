@@ -28,13 +28,6 @@
   .decoration_element {
     display: none;
   }
-  .word_link:focus {
-    outline: none;
-  }
-  .word_link:hover {
-    text-decoration: underline;
-    border-bottom-color: #353430;
-  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -61,7 +54,7 @@
     display: none;
   }
 
-  .word_link:focus {
+  .word_link:focus {                 /* сказал, тоже перенести в style css */
     outline: none;
   }
 

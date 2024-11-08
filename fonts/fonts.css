@@ -1,19 +1,20 @@
 @font-face {
-  font-family: "IBM";
+  font-family: "IBM Plex Mono";            /*меняю как написал ревьюер, у меня меняет текст..но раз у тебя не меняет, значит просто поменяю ? */
   src: url(./IBMPlexMono-Regular.woff) format("woff");
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "IBM";
+  font-family: "IBM Plex Mono"; 
   src: url(./IBMPlexMono-Bold.woff) format("woff");
   font-weight: bold;
   font-display: swap;
 }
 
-@media (min-width: 1024px) {
-  .title {
+/*@media (min-width: 1024px) {         перенесла в style.css 
+  .title { 
     font-weight: bold;
   }
 }
+*/

@@ -192,6 +192,14 @@
   text-decoration: underline;
 }
 
+/*.word_link:focus {                  перенесла эти два селектора сюда, как и сказали, но тут уже они есть и значения outline и text-decoration - противоречат друг другу
+  outline: none; 
+}
+.word_link:hover {
+  text-decoration: underline;
+  border-bottom-color: #353430;
+} */
+
 .image_container {
   display: grid;
   gap: 10px;
@@ -359,6 +367,11 @@
 
 @media (width>= 1024px) {
   /* разрешение 1024px */
+
+  .title {
+    font-weight: bold;
+  }
+
   .header {
     min-width: 1024px;
     max-height: 768px;
