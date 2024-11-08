@@ -154,6 +154,18 @@
   margin-top: 20px;
 }
 
+/*                                Пишет на 96 строке, что надо У первых/последних элементов в группе необходимо сбросить “лишний” отступ...это это ? 
+.subheading:first-child {
+  margin-top: 0px;           
+}
+*/
+
+/*                                Пишет на 96 строке, что надо У первых/последних элементов в группе необходимо сбросить “лишний” отступ...это это ? 
+.subheading:last-child {
+  margin-bottom: 0px;           
+}
+*/
+
 .advice_item {
   color: var(--advice_item-color);
   background-color: var(--advice_item-background-color);
@@ -292,12 +304,6 @@
     margin-bottom: 80px;
   }
 
-  .section_title_what-decrease {
-    margin-top: 80px;
-    margin-right: 512px;
-    margin-bottom: 20px;
-  }
-
   .section_title {
     margin-top: 0px;
   }
@@ -411,7 +417,7 @@
     width: 491px;
   }
 
-  .section_title_grid {
+  .section_title_grid {       /*у section title нижний отступ 20 как по макету, а у subheading отступ обнулен, почему-то все равно различие*/
     margin-right: 689px;
   }
 
