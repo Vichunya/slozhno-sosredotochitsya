@@ -15,6 +15,7 @@
   display: grid;
   min-width: 375px;
   min-height: 668px;
+  height: 100vh;
 }
 
 .decorated-zone {
@@ -231,6 +232,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 @media (width>=768px) {
@@ -374,7 +376,6 @@
 
   .header {
     min-width: 1024px;
-    max-height: 768px;
   }
 
   .header__theme-menu-list {
