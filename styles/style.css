@@ -145,6 +145,17 @@
   margin-top: 40px;
 }
 
+.section, 
+.section_group,
+.section_grid {
+  display: grid;
+  gap: 20px;
+}
+
+.section_title_grid {
+  margin-bottom: 20px;
+}
+
 .section_element {
   display: flex;
   flex-direction: column;
