@@ -165,7 +165,6 @@
   background-color: var(--advice_item-background-color);
   font-size: 18px;
   line-height: 23.4px;
-  margin-top: 20px;
 }
 
 .subheading_in-pictures {
@@ -181,7 +180,6 @@
 .subheading_five-advives {
   /*Пять советов*/
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .word_link {
