@@ -202,8 +202,7 @@
 }
 
 .word_link:hover {
-  text-decoration: underline;
-  border-bottom-color: var(--hover_color);
+  border-bottom: 1.5px solid var(--menu-word-link-border-color);
 } 
 
 .image_container {

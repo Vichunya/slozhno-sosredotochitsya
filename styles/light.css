@@ -15,7 +15,7 @@
   --menu-button-color: #353430;
   --menu-button-border-color: #353430;
   --decoration_inscription_no-focus-color: #ffc2e6;
-  --text-shadow-color: #ff8dcb;
+  --text-shadow-color: #F1B2CE;
   --title-background-color: #ff8dcb;
   --text-color: #353430;
   --subheading-color: #353430;
@@ -26,6 +26,7 @@
   --footer-color: #ffc2e6;
   --decoration_element-color: #353430;
   --hover_color:#35343040;
+  --menu-word-link-border-color: #353430;
   .decoration_element {
     display: none;
   }
@@ -49,6 +50,8 @@
     --advice_item-background-color: #ff8dcb;
     --footer-color: #ffc2e6;
     --decoration_element-color: #353430;
+    --hover_color:#35343040;
+    --menu-word-link-border-color: #353430;
   }
 
   .decoration_element {
