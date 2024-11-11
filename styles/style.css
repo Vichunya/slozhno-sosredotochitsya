@@ -238,6 +238,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  margin-top: 60px;
 }
 
 @media (width>=768px) {
