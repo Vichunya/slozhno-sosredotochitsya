@@ -145,7 +145,11 @@
   margin-top: 40px;
 }
 
-.section, 
+.section_title_top {
+  margin-top: 0px;
+}
+
+.section,
 .section_group,
 .section_grid {
   display: grid;
