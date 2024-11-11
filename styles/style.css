@@ -145,26 +145,20 @@
   margin-top: 40px;
 }
 
+.section_element {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
 .subheading {
   color: var(--subheading-color);
   background-color: var(--subheading-background-color);
   font-size: 18px;
   font-weight: bold;
   line-height: 23.4px;
-  margin-top: 20px;
 }
-
-/*                                Пишет на 96 строке, что надо У первых/последних элементов в группе необходимо сбросить “лишний” отступ...это это ? 
-.subheading:first-child {
-  margin-top: 0px;           
-}
-*/
-
-/*                                Пишет на 96 строке, что надо У первых/последних элементов в группе необходимо сбросить “лишний” отступ...это это ? 
-.subheading:last-child {
-  margin-bottom: 0px;           
-}
-*/
 
 .advice_item {
   color: var(--advice_item-color);
@@ -220,7 +214,6 @@
   font-weight: 400;
   line-height: 23.4px;
   font-family: "IBM", monospace;
-  margin-top: 10px;
 }
 
 .footer {
