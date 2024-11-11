@@ -273,6 +273,10 @@
     margin-top: 0px;
   }
 
+  .section_middle_group {
+    margin-bottom: 20px;
+  }
+
   .section_group {
     display: grid;
     gap: 20px;
@@ -414,7 +418,6 @@
   }
 
   .subheading_five-advives {
-    /*ниже или выше и правее, и небольшой правый отсуп нужен ?*/ /* что-то с шириной, написал*/
     margin-top: 0px;
   }
 
