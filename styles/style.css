@@ -8,7 +8,7 @@
   background-position: center;
   background-attachment: fixed;
   color: var(--text-color);
-  font-family: "IBM", sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
 }
 
 .header {
@@ -210,7 +210,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
-  font-family: "IBM", monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .footer {
@@ -393,8 +393,11 @@
     width: 491px;
   }
 
+  .section {
+    gap: 0px;
+  }
+
   .section_title_grid {
-    /*у section title нижний отступ 20 как по макету, а у subheading отступ обнулен, почему-то все равно различие*/
     margin-right: 689px;
   }
 
