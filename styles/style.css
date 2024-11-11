@@ -358,11 +358,6 @@
 
 @media (width>= 1024px) {
   /* разрешение 1024px */
-
-  .title {
-    font-weight: bold;
-  }
-
   .header {
     min-width: 1024px;
   }
@@ -396,7 +391,6 @@
   .title {
     margin-left: 513px;
     margin-top: 124px;
-    font-family: monospace;
     width: 491px;
   }
 
