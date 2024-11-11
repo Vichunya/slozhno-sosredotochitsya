@@ -151,7 +151,6 @@
   gap: 10px;
 }
 
-
 .subheading {
   color: var(--subheading-color);
   background-color: var(--subheading-background-color);
@@ -195,7 +194,7 @@
 
 .word_link:hover {
   border-bottom: 1.5px solid var(--menu-word-link-border-color);
-} 
+}
 
 .image_container {
   display: grid;
@@ -394,7 +393,8 @@
     width: 491px;
   }
 
-  .section_title_grid {       /*у section title нижний отступ 20 как по макету, а у subheading отступ обнулен, почему-то все равно различие*/
+  .section_title_grid {
+    /*у section title нижний отступ 20 как по макету, а у subheading отступ обнулен, почему-то все равно различие*/
     margin-right: 689px;
   }
 
@@ -410,7 +410,8 @@
     margin-right: 20px;
   }
 
-  .subheading_five-advives {   /*ниже или выше и правее, и небольшой правый отсуп нужен ?*/ /* что-то с шириной, написал*/ 
+  .subheading_five-advives {
+    /*ниже или выше и правее, и небольшой правый отсуп нужен ?*/ /* что-то с шириной, написал*/
     margin-top: 0px;
   }
 
