@@ -313,7 +313,7 @@
 
   .section_grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
   }
 
   .subheading_five-advives {
