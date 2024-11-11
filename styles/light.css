@@ -25,6 +25,7 @@
   --advice_item-background-color: #ff8dcb;
   --footer-color: #ffc2e6;
   --decoration_element-color: #353430;
+  --hover_color:#35343040;
   .decoration_element {
     display: none;
   }
@@ -52,14 +53,5 @@
 
   .decoration_element {
     display: none;
-  }
-
-  .word_link:focus {                 /* сказал, тоже перенести в style css */
-    outline: none;
-  }
-
-  .word_link:hover {
-    text-decoration: underline; 
-    border-bottom-color: #353430;
   }
 }

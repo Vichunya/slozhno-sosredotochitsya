@@ -203,15 +203,8 @@
 
 .word_link:hover {
   text-decoration: underline;
-}
-
-/*.word_link:focus {                  перенесла эти два селектора сюда, как и сказали, но тут уже они есть и значения outline и text-decoration - противоречат друг другу
-  outline: none; 
-}
-.word_link:hover {
-  text-decoration: underline;
-  border-bottom-color: #353430;
-} */
+  border-bottom-color: var(--hover_color);
+} 
 
 .image_container {
   display: grid;
