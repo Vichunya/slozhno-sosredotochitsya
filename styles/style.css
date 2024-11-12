@@ -141,7 +141,7 @@
   font-size: 18px;
   line-height: 23.4px;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .section_title_top {
@@ -241,7 +241,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 @media (width>=768px) {
@@ -373,6 +373,7 @@
   .footer {
     min-width: 768px;
     min-height: 1024px;
+    margin-top: 60px;
   }
 }
 
