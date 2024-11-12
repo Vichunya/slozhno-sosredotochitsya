@@ -190,11 +190,6 @@
   margin-top: 20px;
 }
 
-.subheading_five-advives {
-  /*Пять советов*/
-  margin-top: 20px;
-}
-
 .word_link {
   color: var(--text-color);
   text-shadow: 1.5px 1px 0 var(--text-shadow-color);
