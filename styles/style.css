@@ -46,10 +46,9 @@
 
 .decoration_element {
   justify-self: end;
-  margin-right: 10px;
   color: var(--decoration_element-color);
   position: absolute;
-  left: 314px;
+  right: 19px;
   top: 10px;
 }
 
@@ -225,7 +224,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Mono", monospace; 
 }
 
 .footer {
@@ -264,7 +263,7 @@
   }
 
   .decoration_element {
-    left: 697px;
+    right: 29px;
     top: 20px;
   }
 
@@ -279,6 +278,8 @@
   }
 
   .title {
+    display: flex;
+    justify-self: end;
     margin-left: 384px;
     margin-right: 20px;
     margin-bottom: 183px;
@@ -393,28 +394,26 @@
     display: flex;
     justify-self: center;
     margin-top: 20px;
-  }
-
-  .decoration_element {
-    left: 952px;
-    top: 20px;
+    max-width: 230px; 
   }
 
   .decoration_inscription_no-focus {
-    margin-top: 273px;
+    margin-top: 283px;
     margin-left: 0px;
     margin-bottom: 0px;
     font-size: 157px;
   }
 
   .title {
-    margin-left: 513px;
-    margin-top: 124px;
+    display: flex;
+    justify-self: end;
+    margin-top: 134px;
     width: 491px;
+    max-height: 71px;
   }
 
   .section {
-    gap: 0px;
+    gap: 7px;
   }
 
   .section_title_grid {
