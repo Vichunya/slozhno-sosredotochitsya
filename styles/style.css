@@ -376,6 +376,7 @@
   /* разрешение 1024px */
   .header {
     min-width: 1024px;
+    height: 100vh;
   }
 
   .header__theme-menu-list {
