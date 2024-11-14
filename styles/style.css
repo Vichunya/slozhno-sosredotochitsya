@@ -50,6 +50,7 @@
   position: absolute;
   right: 19px;
   top: 10px;
+  font-size: 18px;
 }
 
 .decoration_element::after {
