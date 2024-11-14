@@ -14,8 +14,7 @@
 .header {
   display: grid;
   min-width: 375px;
-  min-height: 668px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .decorated-zone {
@@ -276,7 +275,6 @@
   .title {
     display: flex;
     justify-self: end;
-    margin-left: 384px;
     margin-right: 20px;
     margin-bottom: 183px;
     margin-top: 0px;
